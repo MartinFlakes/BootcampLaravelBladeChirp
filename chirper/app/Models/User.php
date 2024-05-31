@@ -48,7 +48,4 @@ class User extends Authenticatable
     {
         return $this->hasMany(Chirp::class);
     }
-
-    // https://bootcamp.laravel.com/blade/creating-chirps
-
 }
